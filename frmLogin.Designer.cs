@@ -52,7 +52,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel2.Location = new System.Drawing.Point(415, 334);
+            this.panel2.Location = new System.Drawing.Point(415, 329);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(300, 1);
             this.panel2.TabIndex = 8;
@@ -60,7 +60,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.panel3.Location = new System.Drawing.Point(415, 397);
+            this.panel3.Location = new System.Drawing.Point(415, 392);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(300, 1);
             this.panel3.TabIndex = 7;
@@ -140,7 +140,7 @@
             // 
             this.chkShowPassword.AutoSize = true;
             this.chkShowPassword.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.chkShowPassword.Location = new System.Drawing.Point(605, 404);
+            this.chkShowPassword.Location = new System.Drawing.Point(626, 404);
             this.chkShowPassword.Name = "chkShowPassword";
             this.chkShowPassword.Size = new System.Drawing.Size(95, 17);
             this.chkShowPassword.TabIndex = 2;

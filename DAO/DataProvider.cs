@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace QuanLyQuanCafe.DAO
 {
@@ -21,7 +22,7 @@ namespace QuanLyQuanCafe.DAO
         private DataProvider() { }
 
 
-        private string str = @"Data Source=RIMURU;Initial Catalog=QuanLyQuanCafe;Integrated Security=True";
+        private string str = ConfigurationManager.ConnectionStrings["QuanLyQuanCafeConnectionString"].ConnectionString;
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
